@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hdn.Rewards.Application", "Hdn.Rewards.Application", "{A1BCFC58-4FF2-4743-B6BB-4CB67B05D18C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hdn.Rewards.Database", "Hdn.Rewards.Database", "{496FAA52-3B04-4B8C-9FC1-A70AF58F4DC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hdn.Rewards.Domain", "Hdn.Rewards.Domain", "{FEEDA476-EC94-4812-A942-9A65C0D4A543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hdn.Rewards.Infra", "Hdn.Rewards.Infra", "{0BBA7038-AA7E-424A-A01F-3C0744123FC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hdn.Rewards.Application", "Hdn.Rewards.Application\Hdn.Rewards.Application.csproj", "{9FDC828E-1B28-4D8C-B1F0-10F2F4B04B95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hdn.Rewards.Database", "Hdn.Rewards.Database\Hdn.Rewards.Database.csproj", "{B9232451-215A-479A-A365-8407B4603DE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hdn.Rewards.Domain", "Hdn.Rewards.Domain\Hdn.Rewards.Domain.csproj", "{D45F45FA-16F9-41F4-A066-7CCD1C03868E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hdn.Rewards.Infra", "Hdn.Rewards.Infra\Hdn.Rewards.Infra.csproj", "{DFCB92C8-296C-41C1-84CF-17B890A2A39F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hdn.Rewards.API", "Hdn.Rewards.API", "{132ED0E7-BB5C-4631-8D2D-A479FC637B26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hdn.Rewards.API", "Hdn.Rewards.API\Hdn.Rewards.API.csproj", "{EF26B1F6-E4BC-4439-B8DF-F0F94C16D661}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6005886-D18F-4AEE-BB85-FAFF4BE4E477}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDC828E-1B28-4D8C-B1F0-10F2F4B04B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDC828E-1B28-4D8C-B1F0-10F2F4B04B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDC828E-1B28-4D8C-B1F0-10F2F4B04B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDC828E-1B28-4D8C-B1F0-10F2F4B04B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9232451-215A-479A-A365-8407B4603DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9232451-215A-479A-A365-8407B4603DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9232451-215A-479A-A365-8407B4603DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9232451-215A-479A-A365-8407B4603DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45F45FA-16F9-41F4-A066-7CCD1C03868E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45F45FA-16F9-41F4-A066-7CCD1C03868E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45F45FA-16F9-41F4-A066-7CCD1C03868E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45F45FA-16F9-41F4-A066-7CCD1C03868E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCB92C8-296C-41C1-84CF-17B890A2A39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCB92C8-296C-41C1-84CF-17B890A2A39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCB92C8-296C-41C1-84CF-17B890A2A39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCB92C8-296C-41C1-84CF-17B890A2A39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF26B1F6-E4BC-4439-B8DF-F0F94C16D661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF26B1F6-E4BC-4439-B8DF-F0F94C16D661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF26B1F6-E4BC-4439-B8DF-F0F94C16D661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF26B1F6-E4BC-4439-B8DF-F0F94C16D661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FDC828E-1B28-4D8C-B1F0-10F2F4B04B95} = {A1BCFC58-4FF2-4743-B6BB-4CB67B05D18C}
+		{B9232451-215A-479A-A365-8407B4603DE4} = {496FAA52-3B04-4B8C-9FC1-A70AF58F4DC8}
+		{D45F45FA-16F9-41F4-A066-7CCD1C03868E} = {FEEDA476-EC94-4812-A942-9A65C0D4A543}
+		{DFCB92C8-296C-41C1-84CF-17B890A2A39F} = {0BBA7038-AA7E-424A-A01F-3C0744123FC7}
+		{EF26B1F6-E4BC-4439-B8DF-F0F94C16D661} = {132ED0E7-BB5C-4631-8D2D-A479FC637B26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51EC0592-4280-488B-ACB3-9C10A096B69A}
+	EndGlobalSection
+EndGlobal
